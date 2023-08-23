@@ -1,0 +1,65 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(4, 29, 57);
+}
+
+.new-task-box,
+.task-box {
+  border-radius: 2px;
+  background-color: rgb(240, 240, 240);
+  margin: 0 auto;
+  opacity: 0.9;
+  max-width: 500px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(240, 240, 240, 0.2);
+}
+.task-box {
+  height: 200px;
+}
+
+.todo-input-grid {
+  display: grid;
+  align-items: stretchs;
+  grid-template-columns: 260px 120px 80px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.todo-grid {
+  display: grid;
+  align-items: stretchs;
+  grid-template-columns: 20px 250px 110px 70px;
+  column-gap: 10px;
+  row-gap: 10px;
+  font-size: 14px;
+  vertical-align: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.input-box {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+
+.calendar-input {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
